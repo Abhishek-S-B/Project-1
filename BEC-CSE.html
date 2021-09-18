@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BEC-CSE</title>
+	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="javascript.js" type="text/javascript"></script>
+<link href="CSE.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<a href="BEC-CSE.html" ><img src="ma_1.jpg" width="100%"></a>
+<ul class="topnav">
+  <li><a class="active" href="BEC-CSE.html">Home</a></li>
+<li><a href="Syllabus.html">Syllabus</a></li>
+ <li class="right"><a href="Facilities.html">Facilities</a></li>
+<li><a href="Lecturers.html">Lecturers</a></li>
+  <li><a href="https://goo.gl/maps/N9h4mHaHkDEi2esA7">Location</a></li>
+  <li><a href="More.html">More</a></li>
+</ul>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="cs_1.jpg" style="width:70%">
+</div>
+
+<div class="mySlides fade">
+  <img src="cs_5.jpg" style="width:71%">
+</div>
+
+<div class="mySlides fade">
+  <img src="cs_3.jpg" style="width:81%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+<script>
+var slideIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1}
+  x[slideIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<p align="center">
+The department is comparable to the best in the land and stands tall both in terms of infrastructure and qualified/ committed faculty. The department is housed in a picturesque building consisting of well equipped seminar hall, department library, faculty rooms and nine separate computer laboratories equipped with over 200, state of the art networked computers.
+<br>
+<br>The department environs have a pervasive and high quality Wi-Fi network. Most of the system software including operating systems such as Windows, Linux, Solaris etc and compilers of all programming languages, assemblers, editors, programming environments such as MATLAB etc are available in the department.
+<br>
+<br>Many application software including word processors, spreadsheets, desktop publishing software, databases, graphics animation and multimedia tools such as 3D Max are made available to the students and faculty. The department is part of Microsoft IT Academy, MSDN Academic Alliance and Oracle Workforce Development Program, through which many training programs are conducted for the benefit of the students. VTU-Nokia Innovation Lab has been set up in the department for mobile APP development with support from Nokia Inc.
+<br>
+<br>In department the faculties are very enthusiastic and pursues research with passion. The research areas pursued by the faculty include image processing, knowledge based systems, computer networks, mobile computing, Natural Language processing, Pattern recognition etc. The faculties have published books and technical papers in refereed journals and reputed conferences in their areas of expertise. We execute many sponsored infrastructure enhancement and research projects; till date more than Rs 1.2 Crore of funding has been received for the purpose. We regularly conduct Faculty Development Programs and other training programs to disseminate knowledge in the area of Information Technology. Another feather in the cap of the department is its alumni, who are found in almost all the top IT companies of the world and continue to foster the growth of the department through informal support groups and by interacting with the students.
+<br>
+<br>
+<b>VISION</b>
+<br>“ To be center of excellence in computer science and engineering education, research and innovation “
+<br>
+<b>MISSION</b>
+<br>To produce exemplary human resources in computer science and engineering.
+<br>To carry out innovative cutting edge research.
+<br>To imbibe amongst students moral and ethical values beneficial to the 
+
+</p>
+</body>
+</html>

@@ -1,0 +1,30 @@
+body{
+background-color:black;
+
+}
+h1{
+color:#B7B7B7;
+font-size:50px;
+font-family:calibri;
+font-weight:350;
+}
+h2{
+color:#318DB8;
+font-size:30px;
+}
+h3{
+color:#FFFFFF;
+font-size:25px;
+}
+p{
+color:white;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  font-family:Ebrima;
+}
+th, td {
+  padding: 5px;
+  text-align: left;    
+}
